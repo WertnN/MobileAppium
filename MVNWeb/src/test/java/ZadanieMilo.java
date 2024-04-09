@@ -26,12 +26,12 @@ public class ZadanieMilo {
         Thread.sleep(Duration.ofSeconds(2).toMillis());
 
         // Ввод логина и нажимаем на кнопку вход
-        driver.findElement(By.xpath("//*[@class='input-0-2-71']")).sendKeys("nastya.yfcnzrjirf@bk.ru");
+        driver.findElement(By.xpath("//*[@class='input-0-2-71']")).sendKeys("NET");
         driver.findElement(By.xpath("//*[@class='base-0-2-79 primary-0-2-93']")).click();
         Thread.sleep(Duration.ofSeconds(2).toMillis());
 
         // Вводим пароль и нажимаем на кнопку войти
-        driver.findElement(By.xpath("//*[@class='input-0-2-71 withIcon-0-2-72']")).sendKeys("R@hfrfn!wf09");
+        driver.findElement(By.xpath("//*[@class='input-0-2-71 withIcon-0-2-72']")).sendKeys("DA");
         driver.findElement(By.xpath("//*[@class='inner-0-2-81 innerTextWrapper-0-2-82']")).click();
         Thread.sleep(Duration.ofSeconds(2).toMillis());
 
